@@ -1,13 +1,13 @@
-/*DIVs 2D REctangles
+ /*DIVs 2D Rectangles
 */
 //
-printlin(displayWidth, displayHeight);
+println( displayWidth, displayHeight );
 fullScreen();
 int appWidth =  displayWidth;
 int appHeight = displayHeight;
 //
-int paperWidth = 279;
-int paperHeight = 216;
+int paperWidth = ??;
+int paperHeight = ??;
 float DivX = appWidth * ??? / paperWidth;
 float DivY = appHeight * ??? / paperHeight;
 float DivWidth = appWidth * ??? / paperWidth;
@@ -22,12 +22,12 @@ rect( ShuffleDivX, ShuffleDivY, ShuffleDivWidth, ShuffleDivHeight );
 rect( BluetoothDivX, BluetoothDivY, BluetoothDivWidth, BluetoothDivHeight );
 rect( AlbumPhotoDivX, AlbumPhotoDivY, AlbumPhotoDivWidth, AlbumPhotoDivHeight );
 rect( SongNameDivX, SongNameDivY, SongNameDivWidth, SongNameDivHeight );
-rect( DivX, DivY, DivWidth, DivHeight );
-rect( AritistNameDivX, ArtistNameDivY, ArtistNameDivWidth, ArtistNameDivHeight );
+rect( ProgressBarDivX, ProgressBarDivY, ProgressBarDivWidth, ProgressBarDivHeight );
+rect( ArtistNameDivX, ArtistNameDivY, ArtistNameDivWidth, ArtistNameDivHeight );
 rect( LyricsPreveiwDivX, LyricsPreveiwDivY, LyricsPreveiwDivWidth, LyricsPreveiwDivHeight );
-rect( Rewind10DivX, Rewind10DivY, Rewind10DivWidth, Rewind10DivHeight );
-rect( PlaySongDivX, PlaySongDivY, PlaySongDivWidth, PlaySongDivHeight ); 
-rect( FastForward10DivX, FastForward10DivY, FastForward10DivWidth, FastForward10DivHeight );
+rect( Skip10DivX, DivY, DivWidth, DivHeight );
+rect( DivX, DivY, DivWidth, DivHeight );
+rect( DivX, DivY, DivWidth, DivHeight );
 rect( DivX, DivY, DivWidth, DivHeight );
 rect( DivX, DivY, DivWidth, DivHeight );
 rect( DivX, DivY, DivWidth, DivHeight );
