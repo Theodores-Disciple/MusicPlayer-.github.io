@@ -1,18 +1,39 @@
-/* Text, Smple ... Hardcoded
+/* Text, Simple ... Hardcoded
  */
-//160, 148
+
 //Display
 fullScreen();
 int appWidth = displayWidth;
 int appHeight = displayHeight;
 //
+
 rect(ExitX, ExitY, ExitWidth, ExitHeight);
 rect(SongNameDivX, SongNameDivY, SongNameDivWidth, SongNameDivHeight);
+//
 //Strings, Text, Literal
+String title = "Wahoo!";
+//Fonts from OS
+println("Start of Console"); 
+String[] fontList = PFont.list(); //To list all fonts available system
+printArray(fontlist); //For listing all possible fonts to choose, then createFont
+//Spelling Counts and must compare CONSOLE v tools / Create Font / Create Font spelling
+//Tools / Ccreate Font / Find Font / Do Not Press "OK"
 //
-// Fonts from OS
-//
+//Fonts from OS
+float fontSize = appHeight;
+PFont font;
+String harrington = "Harrington";
+font = createFont(harrington, fontSize);
 // Aspect Ratio for Harrington
+fontSize = 12;
+float divHeightHarrington = SongNameDivWidth;
+float harringtonAspectRatio = fontSize / divHeightHarrington;
+fontSize = SongNameDIvWidth*harringtonAspectRatio * 0.96;
 //
-//Drawing Text
+//Drawing Texthite
+color lightblueInk = #21D4FF;
+color whiteInk = #FFFFFF;
+color resetInk = whiteInk; 
+text( title, SongNameDivX, SongNameDivY, SongNameDivWidth, SongNameDivHeight );
+fill(resetInk)
 //
