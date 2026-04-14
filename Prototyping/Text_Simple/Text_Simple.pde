@@ -1,12 +1,17 @@
 /* Text, Simple ... Hardcoded
- */
+  /*
+//
 
 //Display
 fullScreen();
 int appWidth = displayWidth;
 int appHeight = displayHeight;
 //
-
+//Population: DIVs
+float SongNameDivX = appWidth * 1.4 / paperWidth;
+float SongNameDivY = appHeight * 10.7 / paperHeight;
+float SongNameDivWidth = appWidth * 3.8 / paperWidth;
+float SongNameDivHeight = appHeight * 1.8 / paperHeight;
 rect(ExitX, ExitY, ExitWidth, ExitHeight);
 rect(SongNameDivX, SongNameDivY, SongNameDivWidth, SongNameDivHeight);
 //
