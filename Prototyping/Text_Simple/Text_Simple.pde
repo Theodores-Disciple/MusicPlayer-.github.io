@@ -27,20 +27,20 @@ float fontSize = appHeight;
 PFont font;
 String harrington = "Harrington";
 font = createFont(harrington, fontSize);
+//
 // Aspect Ratio for Harrington
-fontSize = 12;
-float divHeightHarrington = SongNameDivWidth;
-float harringtonAspectRatio = fontSize / divHeightHarrington;
+float fontSizeHarrington = 83; 
+float divHeightHarrington = SongNameDivHeight;
+float harringtonAspectRatio = fontSizeHarrington / divHeightHarrington;
+float textAdjustment = 0.9;
 fontSize = SongNameDIvWidth*harringtonAspectRatio * 0.96;
 //
-//Drawing Texthite
+//Drawing Text
 color lightblueInk = #21D4FF;
 color whiteInk = #FFFFFF;
 color resetInk = whiteInk; 
 text( title, SongNameDivX, SongNameDivY, SongNameDivWidth, SongNameDivHeight );
 textFont(font, fontSize2);
 text( title, messageDIV_X, messageDIV_Y, messageDIV_Width, messageDIV_Height);
-
-fill(resetInk
-
+fill(resetInk)
 //
