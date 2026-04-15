@@ -1,8 +1,6 @@
-/* Text, Simple ... Hardcoded
-  /*
+//Text, Simple ... Hardcoded
 //
-
-//Display
+//Display   
 fullScreen();
 int appWidth = displayWidth;
 int appHeight = displayHeight;
@@ -40,5 +38,9 @@ color lightblueInk = #21D4FF;
 color whiteInk = #FFFFFF;
 color resetInk = whiteInk; 
 text( title, SongNameDivX, SongNameDivY, SongNameDivWidth, SongNameDivHeight );
-fill(resetInk)
+textFont(font, fontSize2);
+text( title, messageDIV_X, messageDIV_Y, messageDIV_Width, messageDIV_Height);
+
+fill(resetInk
+
 //
