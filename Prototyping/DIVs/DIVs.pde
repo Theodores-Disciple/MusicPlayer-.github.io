@@ -6,14 +6,14 @@ fullScreen();
 int appWidth =  displayWidth;
 int appHeight = displayHeight;
 //
-int paperWidth = 33;
-int paperHeight = 22;     
+int paperWidth = 26;
+int paperHeight = 21;     
 
-//float DivX = appWidth * 16.1 / paperWidth;
-//float DivY = appHeight * 17.2 / paperHeight;
-//float DivWidth = appWidth * 16.1 / paperWidth;
-//float DivHeight = appHeight * 17.2 / paperHeight;
-//
+float DivX = appWidth * 16.1 / paperWidth;
+float DivY = appHeight * 17.2 / paperHeight;
+float DivWidth = appWidth * 16.1 / paperWidth;
+float DivHeight = appHeight * 17.2 / paperHeight;
+
 //float ShuffleDivX = appWidth * 1.2 / paperWidth;
 //float ShuffleDivY = appHeight * 12.8 / paperHeight;
 //float ShuffleDivWidth = appWidth * 3.2 / paperWidth;
@@ -28,7 +28,7 @@ int paperHeight = 22;
 //float AlbumPhotoDivY = appHeight * 10.7 / paperHeight;
 //float AlbumPhotoDivWidth = appWidth * 15.2 / paperWidth;
 //float AlbumPhotoDivHeight = appHeight * 10.4 / paperHeight;
-//
+
 //float SongNameDivX = appWidth * 1.4 / paperWidth;
 //float SongNameDivY = appHeight * 10.7 / paperHeight;
 //float SongNameDivWidth = appWidth * 3.8 / paperWidth;
@@ -38,13 +38,14 @@ int paperHeight = 22;
 //float ProgressBarDivY = appHeight * 11.9 / paperHeight;
 //float ProgressBarDivWidth = appWidth * 14.9 / paperWidth;
 //float ProgressBarDivHeight = appHeight * 1.5 / paperHeight;
-//
+
 //float ArtistNameDivX = appWidth * 1.7 / paperWidth;
 //float ArtistNameDivY = appHeight * 11.5 / paperHeight;
 //float ArtistNameDivWidth = appWidth * 4.2 / paperWidth;
 //float ArtistNameDivHeight = appHeight * 1.3 / paperHeight;
 ////
 //float LyricsPreveiwDivX = appWidth * 4.0 / paperWidth;
+//float LyricsPreveiwDivY = appHeight * 16.3 / paperHeight;
 //float LyricsPreveiwDivWidth = appWidth * 7 / paperWidth;
 //float LyricsPreveiwDivHeight = appHeight * 2 / paperHeight;
 ////
@@ -83,12 +84,12 @@ int paperHeight = 22;
 //float SpeakerButtonDivWidth = appWidth * 2.9 / paperWidth;
 //float SpeakerButtonDivHeight = appHeight * 2.5 / paperHeight;
 ////
-float ExitButtonDivX = appWidth * 15.8 / paperWidth;
-float ExitButtonDivY = appHeight * 0 / paperHeight;
-float ExitButtonDivWidth = appWidth * 1.4 / paperWidth;
-float ExitButtonDivHeight = appHeight * 1.4 / paperHeight;
+//float ExitButtonDivX = appWidth * 15.8 / paperWidth;
+//float ExitButtonDivY = appHeight * 0 / paperHeight;
+//float ExitButtonDivWidth = appWidth * 1.4 / paperWidth;
+//float ExitButtonDivHeight = appHeight * 1.4 / paperHeight;
 //DIVs
-//rect( DivX, DivY, DivWidth, DivHeight );
+rect( DivX, DivY, DivWidth, DivHeight );
 //rect( ShuffleDivX, ShuffleDivY, ShuffleDivWidth, ShuffleDivHeight );
 //rect( BluetoothDivX, BluetoothDivY, BluetoothDivWidth, BluetoothDivHeight );
 //rect( AlbumPhotoDivX, AlbumPhotoDivY, AlbumPhotoDivWidth, AlbumPhotoDivHeight );
@@ -103,7 +104,7 @@ float ExitButtonDivHeight = appHeight * 1.4 / paperHeight;
 //rect( SkipSongDivX, SkipSongDivY, SkipSongDivWidth, SkipSongDivHeight );
 //rect( FavoriteButtonDivX, FavoriteButtonDivY, FavoriteButtonDivWidth, FavoriteButtonDivHeight );
 //rect( SpeakerButtonDivX, SpeakerButtonDivY, SpeakerButtonDivWidth, SpeakerButtonDivHeight );
-rect( ExitButtonDivX, ExitButtonDivY, ExitButtonDivWidth, ExitButtonDivHeight );   
+//rect( ExitButtonDivX, ExitButtonDivY, ExitButtonDivWidth, ExitButtonDivHeight );   
  
       
 
