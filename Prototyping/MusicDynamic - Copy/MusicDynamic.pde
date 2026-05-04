@@ -56,18 +56,6 @@ void setup() {
   currentSong++;
   songName[currentSong] = "Cycles";
   currentSong++;
-  songName[currentSong] = "Eureka";
-  currentSong++;
-  songName[currentSong] = "Ghost_Walk";
-  currentSong++;
-  songName[currentSong] = "groove";
-  currentSong++;
-  songName[currentSong] = "Newsroom";
-  currentSong++;
-  songName[currentSong] = "Start_Your_Engines";
-  currentSong++;
-  songName[currentSong] = "The_Simplest";
-  currentSong=0;
   //
   /* Alternate Song Name Text
    String songName1 = "groove";
@@ -83,7 +71,7 @@ void setup() {
   String fileExtension_mp3 = ".mp3";
   //
   //CAUTION: Mistakes Below
-  String musicDirectory = upArrow + open + upArrow + open + dependanciesFolder + open + musicFolder + open ; //Concatenation
+  String musicDirectory = upArrow + open + upArrow + open + dependanciesFolder + open + musicFolder + open ; //Concatenation                                  //CHANGE
   String soundEffectsDirectory = upArrow + open + upArrow + open + dependanciesFolder + open + soundEffectsFolder + open ; //Concatenation
   String pathway;
   for ( int i=0; i<numberOfSongs; i++ ) {
