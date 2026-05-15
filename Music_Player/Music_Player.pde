@@ -17,7 +17,7 @@ void setup() {
   //int appWidth = width;
   //int appHeight = height;
   println( displayWidth, displayHeight );
-  fullScreen();
+  fullScreen ();
   int appWidth =  displayWidth;
   int appHeight = displayHeight;
   //
@@ -32,7 +32,7 @@ void setup() {
    */
 
   float ShuffleDivX = appWidth * 1.2 / paperWidth;
-  float ShuffleDivY = appHeight * 8 / paperHeight; //Number guessed see at end
+  float ShuffleDivY = appHeight * 8 / paperHeight; //Number guessed see at end//8
   float ShuffleDivWidth = appWidth * 3.2 / paperWidth;
   float ShuffleDivHeight = appHeight * 2.7 / paperHeight;
   //
@@ -41,10 +41,10 @@ void setup() {
   float BluetoothDivWidth = appWidth * 2.6 / paperWidth;
   float BluetoothDivHeight = appHeight * 2.4 / paperHeight;
   //
-  float AlbumPhotoDivX = appWidth * 1.4 / paperWidth;
-  float AlbumPhotoDivY = appHeight * 1.7 / paperHeight;
-  float AlbumPhotoDivWidth = appWidth * 14.2 / paperWidth;
-  float AlbumPhotoDivHeight = appHeight * 10.4 / paperHeight;
+  float AlbumPhotoDivX = appWidth * 1.4 / paperWidth;//1.4
+  float AlbumPhotoDivY = appHeight * 1.7 / paperHeight;//1.7
+  float AlbumPhotoDivWidth = appWidth * 14.2 / paperWidth;//14.2
+  float AlbumPhotoDivHeight = appHeight * 10.4 / paperHeight;//10.4
 
   float SongNameDivX = appWidth * 1.4 / paperWidth;
   float SongNameDivY = appHeight * 10.7 / paperHeight;
@@ -53,8 +53,8 @@ void setup() {
 
   float ProgressBarDivX = appWidth * 1.4 / paperWidth;
   float ProgressBarDivY = appHeight * 11.9 / paperHeight;
-  float ProgressBarDivWidth = appWidth * 14.9 / paperWidth;
-  float ProgressBarDivHeight = appHeight * 1.5 / paperHeight;
+  float ProgressBarDivWidth = appWidth * 14.2 / paperWidth;//14.9
+  float ProgressBarDivHeight = appHeight * 0.2 / paperHeight;//1.5
 
   float ArtistNameDivX = appWidth * 1.7 / paperWidth;
   float ArtistNameDivY = appHeight * 11.5 / paperHeight;
@@ -120,7 +120,7 @@ void setup() {
   //rect( BluetoothDivX, BluetoothDivY, BluetoothDivWidth, BluetoothDivHeight );
   //
   //rect( SongNameDivX, SongNameDivY, SongNameDivWidth, SongNameDivHeight );
-  //rect( ProgressBarDivX, ProgressBarDivY, ProgressBarDivWidth, ProgressBarDivHeight );
+  rect( ProgressBarDivX, ProgressBarDivY, ProgressBarDivWidth, ProgressBarDivHeight );
   //rect( ArtistNameDivX, ArtistNameDivY, ArtistNameDivWidth, ArtistNameDivHeight );
   //rect( LyricsPreveiwDivX, LyricsPreveiwDivY, LyricsPreveiwDivWidth, LyricsPreveiwDivHeight );
   //rect( Rewind10DivX, Rewind10DivY, Rewind10DivWidth, Rewind10DivHeight );
@@ -130,7 +130,7 @@ void setup() {
   //rect( SkipSongDivX, SkipSongDivY, SkipSongDivWidth, SkipSongDivHeight );
   //rect( FavoriteButtonDivX, FavoriteButtonDivY, FavoriteButtonDivWidth, FavoriteButtonDivHeight );
   //rect( SpeakerButtonDivX, SpeakerButtonDivY, SpeakerButtonDivWidth, SpeakerButtonDivHeight );
-  //rect( ExitButtonDivX, ExitButtonDivY, ExitButtonDivWidth, ExitButtonDivHeight );
+  rect( ExitButtonDivX, ExitButtonDivY, ExitButtonDivWidth, ExitButtonDivHeight );
 }//End Setup
 //
 void draw() {
