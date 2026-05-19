@@ -111,8 +111,6 @@ void setup() {
 
 
 
-
-
   //DIVs
   //rect( DivX, DivY, DivWidth, DivHeight );
   rect( AlbumPhotoDivX, AlbumPhotoDivY, AlbumPhotoDivWidth, AlbumPhotoDivHeight );
