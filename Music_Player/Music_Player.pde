@@ -132,10 +132,11 @@ void setup() {
 }//End Setup
 //
 void draw() {
-}//End Setup
+  //2D Muisic Symbol Changes: hoverover, activation.
+}//End Draw
 //
 void mousePressed() {
-}//End Setup
+}//End Mouse Pressed
 //
 void keyPressed() {
-}//End Setup
+}//End MAIN Program
